@@ -1,0 +1,112 @@
+{
+  "database": {
+    "url": "***",
+    "key": "***",
+    "timeout": 30,
+    "max_connections": 10,
+    "retry_attempts": 3
+  },
+  "ai_model": {
+    "api_key": "***",
+    "model_name": "gemini-2.5-flash",
+    "embedding_model": "models/embedding-001",
+    "temperature": 0.3,
+    "max_tokens": 2000,
+    "timeout": 30
+  },
+  "cache": {
+    "enabled": true,
+    "embedding_cache_size": 2000,
+    "search_cache_size": 1000,
+    "system_cache_size": 100,
+    "embedding_ttl": 7200,
+    "search_ttl": 1800,
+    "system_ttl": 3600
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": null,
+    "max_file_size": 10000000,
+    "backup_count": 5,
+    "performance_tracking": true
+  },
+  "systems": {
+    "rules_uap": {
+      "name": "Rules UAP",
+      "enabled": true,
+      "confidence_threshold": 0.4,
+      "ambiguous_threshold": 0.3,
+      "medium_confidence_threshold": 0.6,
+      "high_confidence_threshold": 0.8,
+      "table_name": "rules_uap_documents",
+      "search_limit": 10,
+      "keywords": [
+        "ujian",
+        "menyontek",
+        "sanksi",
+        "aturan",
+        "pelanggaran"
+      ],
+      "weight": 1.1
+    },
+    "assistant_search": {
+      "name": "Assistant Search",
+      "enabled": true,
+      "confidence_threshold": 0.4,
+      "ambiguous_threshold": 0.3,
+      "medium_confidence_threshold": 0.6,
+      "high_confidence_threshold": 0.8,
+      "table_name": "assistant_documents",
+      "search_limit": 10,
+      "keywords": [
+        "asisten",
+        "dosen",
+        "ruangan",
+        "lokasi",
+        "kontak"
+      ],
+      "weight": 1.25
+    },
+    "rules_mengajar": {
+      "name": "Rules Mengajar",
+      "enabled": true,
+      "confidence_threshold": 0.4,
+      "ambiguous_threshold": 0.3,
+      "medium_confidence_threshold": 0.6,
+      "high_confidence_threshold": 0.8,
+      "table_name": "practicum_documents",
+      "search_limit": 10,
+      "keywords": [
+        "praktikum",
+        "lab",
+        "komputer",
+        "setup",
+        "prosedur",
+        "mengajar",
+        "teaching"
+      ],
+      "weight": 1.15
+    },
+    "correction_casemaking": {
+      "name": "Correction & Case Making",
+      "enabled": true,
+      "confidence_threshold": 0.4,
+      "ambiguous_threshold": 0.3,
+      "medium_confidence_threshold": 0.6,
+      "high_confidence_threshold": 0.8,
+      "table_name": "correction_casemaking_documents",
+      "search_limit": 10,
+      "keywords": [
+        "koreksian",
+        "case making",
+        "template",
+        "messier"
+      ],
+      "weight": 1.2
+    }
+  },
+  "app_name": "Unified Academic Assistant",
+  "version": "1.0.0",
+  "debug": false
+}

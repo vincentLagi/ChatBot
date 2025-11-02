@@ -1,0 +1,21 @@
+# AI Agent API Server Configuration
+# Copy these variables to your .env file
+
+# Google AI API Key (Required)
+# Get from: https://makersuite.google.com/app/apikey
+GOOGLE_API_KEY=your_google_api_key_here
+
+# Database Configuration (Optional - if using Supabase)
+SUPABASE_URL=your_supabase_url_here
+SUPABASE_KEY=your_supabase_anon_key_here
+
+# API Server Configuration (Optional)
+PORT=5000
+HOST=0.0.0.0
+
+# Logging Configuration (Optional)
+LOG_LEVEL=INFO
+
+# Development/Production Mode (Optional)
+FLASK_ENV=development
+DEBUG=False 

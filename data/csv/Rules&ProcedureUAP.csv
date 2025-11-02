@@ -1,0 +1,25 @@
+﻿Embed;Content
+Sebelum ujian berlangsung                ;"1. Meminta mahasiswa untuk menyiapkan Exam Eligibilty yang ada di Binusmaya dan Binusian Card  sebelum memasuki ruangan ujian.
+2. Memeriksa kelengkapan mahasiswa (Exam Eligibility, Binusian Card, sepatu) di depan pintu. Jika semua sudah lengkap, maka mahasiswa dipersilakan masuk ke dalam ruangan ujian.
+3. Maksimal keterlambatan adalah 30 menit. Jika mahasiswa terlambat untuk datang ujian, ajak mahasiswa tersebut untuk melihat jam pada sistem internal SLC sebagai bukti bahwa dia terlambat 30 menit, dan mahasiswa tersebut tidak diperbolehkan untuk mengikuti ujian. Jika keterlambatan terjadi karena faktor intern, maka pengawas ujian wajib untuk mengonfirmasikan ke Operation Management Officer terlebih dahulu sebelum memperbolehkan mahasiswa tersebut untuk mengikuti ujian.
+4. Mengarahkan mahasiswa untuk membaca pengumuman ujian.
+5. Mengarahkan  mahasiswa untuk mendapatkan soal ujian menggunakan sistem internal SLC (theoryexam.slc.net)."
+tidak memakai sepatu yang sesuai;"Jika diketahui sebelum mahasiswa masuk dan melihat soal, maka persilakan mahasiswa untuk mengganti sepatu dan kembali sebelum 30 menit ujian berlangsung.
+Jika diketahui setelah mahasiswa melihat soal ujian, maka nilai mahasiswa di-nol-kan dan baru boleh meninggalkan ruangan setelah 30 menit dari waktu ujian dimulai."
+tidak membawa Flazz card / Binusian card;"Jika diketahui sebelum  25 menit ujian berlangsung, maka minta mahasiswa tersebut melapor ke AOC (apabila mahasiswa tersebut mendapatkan surat bukti pelaporan, maka mahasiswa di skorsing selama 25 menit dari waktu ujian dimulai).
+Jika diketahui sesudah 25 menit ujian berlangsung, maka mahasiswa mengerjakan ujian sampai dengan 25 menit terakhir. Setelah selesai ujian, mahasiswa tersebut wajib melapor ke AOC."
+mahasiswa tidak eligible untuk mengikuti ujian;Mahasiswa tidak diperbolehkan masuk selama tidak eligible
+keterlambatan;Maksimal keterlambatan adalah 30 menit. Jika mahasiswa terlambat untuk datang ujian, ajak mahasiswa tersebut untuk melihat jam pada sistem internal SLC sebagai bukti bahwa dia terlambat 30 menit, dan mahasiswa tersebut tidak diperbolehkan untuk mengikuti ujian. Jika keterlambatan terjadi karena faktor intern, maka pengawas ujian wajib untuk mengonfirmasikan ke Operation Management Officer terlebih dahulu sebelum memperbolehkan mahasiswa tersebut untuk mengikuti ujian.
+selama ujian berlangsung, mengawas ujian, tugas pengawas, pengawasan ujian, apa yang harus dilakukan saat mengawas;"1. Mencatat daftar hadir mahasiswa selama ujian berlangsung.
+2. Bila ada mahasiswa yang selesai sebelum waktu 30 menit ujian berlangsung, maka minta mahasiswa tersebut untuk menunggu sampai 30 menit berlalu dan sebelum keluar pastikan mahasiswa sudah mengecek file jawaban yang dia kumpul dan sudah finalize di theoryexam dan submit backup jawaban di FTP.
+3. Mengingatkan mahasiswa untuk menyimpan jawaban sesering mungkin.
+4. Wajib memperhatikan jalannya ujian, tidak diperkenankan membaca buku, mengerjakan program, browsing, atau melakukan hal-hal lain yang dapat mengganggu jalannya pengawasan ujian.
+5. Memberikan teguran kepada mahasiswa yang melakukan kecurangan. Setiap teguran dicatat pada Academic services untuk UAS / messier untuk UAP Lab. Teguran disampaikan dengan cara diumumkan di depan seluruh peserta ujian, tidak hanya kepada yang bersangkutan.
+6. Jika terdapat mahasiswa yang mencontek, pengawas mengambil bukti contekan, catat keterangan mahasiswa mencontek pada  Academic services untuk UAS / messier untuk UAP Lab, dan mahasiswa diperkenankan meninggalkan ruang ujian. Pemberitahuan disampaikan dengan cara mengumumkannya di depan seluruh peserta ujian."
+mahasiswa selesai mengerjakan ujian;Bila ada mahasiswa yang selesai sebelum waktu 30 menit ujian berlangsung, maka minta mahasiswa tersebut untuk menunggu sampai 30 menit berlalu dan sebelum keluar pastikan mahasiswa sudah mengecek file jawaban yang dia kumpul dan sudah finalize di theoryexam dan submit backup jawaban di FTP.
+mahasiswa menyontek;Jika terdapat mahasiswa yang mencontek, pengawas mengambil bukti contekan, catat keterangan mahasiswa mencontek pada  Academic services untuk UAS / messier untuk UAP Lab, dan mahasiswa diperkenankan meninggalkan ruang ujian. Pemberitahuan disampaikan dengan cara mengumumkannya di depan seluruh peserta ujian.
+setelah ujian berlangsung;"1. Mengarahkan mahasiswa untuk mengumpulkan jawaban ujian menggunakan sistem internal SLC (theoryexam.slc.net) dan submit backup jawaban yang ada di ftp.
+2. Meminta mahasiswa untuk mengecek dengan benar data ujiannya (format penamaan file, extension file, jumlah file yang dikumpulkan, ukuran file, tanggal modifikasi, dan kode bukti pengumpulan ujian).
+3. Memastikan mahasiswa sudah finalize di theoryexam dan sudah submit ftp sebelum mahasiswa keluar ruangan.
+4. Menyimpan seluruh backup jawaban mahasiswa menggunakan netfile.
+5. Membersihkan semua pc yang terdapat di ruangan seperti semula."
